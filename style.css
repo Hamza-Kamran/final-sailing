@@ -1,11 +1,19 @@
 body {
   font-family: Roboto, sans-serif;
-  margin-top: 100px;
+  margin-top: 20px;
   width: 90%;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
 
+}
+
+#menu {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
 }
 
 h4 {
@@ -33,8 +41,47 @@ h4 {
   transform: translateY(-50px);
 }
 
+#results{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+#results p {
+  font-size: 18px;
+  text-align: center;
+}
+
 #images {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+#obstacles #images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#obstacles p {
+  font-size: 18px;
+  text-align: center;
+  transform: translateY(-50px);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#neelay, #hamza, #andrew {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#neelay-desc, #hamza-desc, #andrew-desc {
+  margin-left: 40px;
+  max-width: 400px;
 }
