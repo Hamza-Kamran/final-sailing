@@ -40,11 +40,11 @@ as survey ships etc. This can reduce expenses and reduce deployment time, and in
 <img id="controller" src="images/controller.PNG" alt="" width="800">
 <div id="controller-text"> Fig 2: Block diagram of planner and controller </div>
 
-The maneuver will be performed in USWsim simulation environment, with simulated wind as the
-propellantfor the USV. Environmental disturbances (water currents) are also be an important factor.
+The maneuver will be performed in stda-sailboat-sim simulation environment, with simulated wind as the
+propellant for the USV. Environmental disturbances (water currents) are also be an important factor.
 
 
-<p> We use code from here to simulate environmental disturbances: https://github.com/disaster-robotics-proalertas/usv_sim_lsa
+<p> We use code from stda-sailboat-sim to simulate environmental disturbances: https://github.com/disaster-robotics-proalertas/usv_sim_lsa
   such as waves.
 
 <h4> Conclusion </h4>
@@ -58,6 +58,12 @@ The simulation was run in several different cases. Waves,obstacles, and differen
  used. The tests were not exhaustive due to the wide variety of environmental conditions possible at sea
   and also due to the limitations of the simulator. An experiment was deemed successful if the sailboat got
    close to the target position.
+
+<div id="images">
+   <img src="images/with_wind_to_40_40_heading.png" width= "300px" alt="">
+   <img src="images/with_wind_to_40_40_pos.png" width= "300px" alt="">
+   <img src="images/with_wind_to_40_40_speed.png" width= "300px" alt="">
+</div>
 
    The results demonstrated that the planner was largely successful. Passages as narrow as 4 meters were navigated through. Any narrower gaps
    caused the planner to return an infeasible path. We used:
@@ -84,8 +90,8 @@ The simulation was run in several different cases. Waves,obstacles, and differen
    machine learning/ artificial intelligence and dynamically responsive, maneuverable robotic
    systems with a spice  of eﬀiciency/optimization</div></div>
 
-<div id="andrew"><img src="" alt=""><div id=andrew-desc><b>Andrew</b> is a 4th year undergraduate in EECS. He hastaken EE 120, EE C128, and
-EECS C106A. His interestsin robotics are in micro-scale mobile robots.</div></div>
+<div id="andrew"><img src="images/andrew.jpg" width="200px" alt=""><div id=andrew-desc><b>Andrew</b> is a 4th year undergraduate in EECS. He hastaken EE 120, EE C128, and
+EECS C106A. His interests in robotics are in micro-scale mobile robots.</div></div>
  </div>
 
   </body>
